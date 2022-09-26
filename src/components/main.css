@@ -1,0 +1,15 @@
+.main {
+    height: 80vh;
+}
+
+.red.active {
+    color: red;
+}
+
+.blue.active {
+    color: blue;
+}
+
+.black.active {
+    color: rgb(29, 29, 29);
+}
