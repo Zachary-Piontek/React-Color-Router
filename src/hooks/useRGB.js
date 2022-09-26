@@ -5,8 +5,8 @@ export default function RGB() {
 
   return (
     <>
-      <div style={{ backgroundColor: `${r}${g}${b}` }}>
-        <h1>{`R - ${r} G - ${g} B - ${b}`}</h1>
+      <div className='main' style={{ backgroundColor: `rgb(${r},${g},${b})` }}>
+        <h1>{`rgb(${r},${g},${b})`}</h1>
       </div>
     </>
   );

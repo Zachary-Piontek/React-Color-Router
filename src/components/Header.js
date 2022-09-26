@@ -6,14 +6,14 @@ export default function Header() {
     <>
       <div className='header'>
         <ul>
-          <NavLink to="/rgb/222/222/222" className='red'>
+          <NavLink to="/rgb/255/0/0" className='link-red'>
             Red
           </NavLink>
-          <NavLink to="/rgb/555/555/555" className='blue'>
-            Blue
+          <NavLink to="/rgb/128/128/128" className='link-grey'>
+            Grey
           </NavLink>
-          <NavLink to="/rgb/0/0/0" className='black'>
-            Black
+          <NavLink to="/rgb/0/128/0" className='link-green'>
+            Green
           </NavLink>
         </ul>
       </div>
