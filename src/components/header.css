@@ -1,0 +1,11 @@
+.header {
+    display: grid;
+    background-color: black;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
