@@ -1,4 +1,4 @@
-import { NavLink, Redirect } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 
 export default function Header() {
@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className='header'>
         <ul>
-          <Redirect to='/rgb/55/55/55' />
+
           <NavLink to="/rgb/255/0/0" className='link-red'>
             Red
           </NavLink>
