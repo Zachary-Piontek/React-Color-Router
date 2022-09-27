@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+    background-color: black;
+    min-height: 10vh;
+    font-size: 2rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-red.active {
+    color: red;
+}
+
+.link-grey.active {
+    color: gray;
+}
+
+.link-green.active {
+    color: green;
+}
